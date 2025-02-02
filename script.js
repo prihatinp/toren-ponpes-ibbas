@@ -1,12 +1,18 @@
 // Konfigurasi Firebase
+
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    databaseURL: "YOUR_DATABASE_URL",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyATciWiVmXo74a-dzLmz-ZylpQ1hK_qAmk",
+    authDomain: "monitoring-toren.firebaseapp.com",
+    projectId: "monitoring-toren",
+    storageBucket: "monitoring-toren.firebasestorage.app",
+    messagingSenderId: "385578729455",
+    appId: "1:385578729455:web:edb306ecc8b022e1a1c01a"
 };
 
 // Inisialisasi Firebase
