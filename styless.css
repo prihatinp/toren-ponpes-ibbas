@@ -1,43 +1,45 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    padding: 20px;
 }
 
 .container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 400px; /* Lebar maksimum container */
-    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Styling untuk logo */
 .logo {
-    width: 80px; /* Ukuran logo diperkecil */
-    height: auto; /* Biarkan tinggi menyesuaikan proporsi */
-    display: block; /* Agar logo bisa diatur margin-nya */
-    margin: 0 auto 20px auto; /* Margin: atas 0, kanan auto, bawah 20px, kiri auto */
-}
-
-h1 {
-    font-size: 24px;
+    width: 100px; /* Ukuran logo */
+    height: auto;
     margin-bottom: 20px;
-    color: #333; /* Warna teks */
 }
 
-.data {
-    font-size: 20px;
-    color: #555; /* Warna teks */
+.torn-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#level-air {
-    font-weight: bold;
-    color: #007bff; /* Warna biru untuk level air */
+.sensor-status p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.on {
+    background-color: #28a745; /* Hijau untuk ON */
+}
+
+.off {
+    background-color: #dc3545; /* Merah untuk OFF */
 }
